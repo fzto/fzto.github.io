@@ -1,0 +1,226 @@
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color: #3C3F42;
+  font-size: 14px;
+  color: #FFF;
+  position:relative;
+}
+
+header {
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #3C3F42;
+    box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.15);
+    z-index:9999;
+}
+
+#site-menu {
+    background-color:#3C3F42;
+}
+
+.navbar-toggle {
+    border-color: #ddd;
+}
+
+.icon-bar {
+    background-color:#ccc;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    border-radius: 100%;
+    display:inline-block;
+    margin: -5px 15px 0 0;
+}
+
+.navbar-brand span {
+    display:inline-block;
+    font-size:18px;
+    letter-spacing: 2px;
+}
+
+.logo a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo a:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav li a:link {
+    text-decoration: none;
+    color: #999;
+    font-weight: bold;
+}
+
+nav li a:visited {
+    text-decoration: none;
+    color: #999;
+    font-weight: bold;
+    background-color:transparent;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav li a:active {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#wrapper{
+    position:relative;
+    padding-top:50px;
+}
+
+section {
+    padding-bottom:50px;
+    padding-top:50px;
+    margin-top:-50px;
+}
+
+#intro{
+    position:relative;
+}
+
+#bg01 {
+    position: relative;
+    background: #CCCCCC url(bg01.jpg) no-repeat left top;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:900px;
+    z-index: 0;
+}
+
+h1 {
+    position: absolute;
+    color: #FFF;
+    top:40%;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    z-index: 5;
+    letter-spacing: 10px;
+}
+
+section h2 {
+    text-align:center;
+    margin-top:2em;
+    letter-spacing:10px;
+}
+
+#about{
+    position:relative;
+    width:100%;
+    height:100%;
+    z-index:10;
+}
+
+.wrap {
+    width: 80%;
+    height: 50%;
+    margin: 5% auto 15%;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#about .col-md-6 {
+    text-align:center;
+}
+
+#about .image img {
+  max-width: 100%;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin-bottom:20px;
+}
+
+#about .text h3 {
+    text-align:center;
+    border-bottom: 1px solid #FFF;
+    margin: 0 auto 30px;
+    padding-bottom:10px;
+    width:60%;
+    letter-spacing:2px;
+}
+
+#about .text p {
+    text-align:left;
+    font-size: 14px;
+    color: #FFF;
+    letter-spacing: 3px;
+    line-height:2em;
+}
+
+#works{
+    position:relative;
+    width:100%;
+    height:100%;
+    z-index:10;
+}
+
+.work {
+
+}
+
+#works .work img {
+    text-align:center;
+    max-width:100%;
+}
+
+#works .work h3 {
+    text-align:center;
+}
+
+#contact{
+    position:relative;
+    width:100%;
+    height:100%;
+    z-index:10;
+}
+
+#links {
+    list-style:none;
+    text-align:center;
+    padding:80px 0;
+}
+
+#links li {
+    display:inline-block;
+    margin:0 30px;
+}
+
+footer {
+  padding: 20px 0;
+  font-size: 12px;
+  text-align: center;
+  height:480px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
