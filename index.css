@@ -125,7 +125,7 @@ h1 {
 
 section h2 {
     text-align:center;
-    margin-top:2em;
+    margin-top:1em;
     letter-spacing:10px;
 }
 
@@ -207,7 +207,11 @@ section h2 {
 
 #links li {
     display:inline-block;
-    margin:0 30px;
+    margin:0 15px;
+}
+
+#links li img {
+    max-width:100%;
 }
 
 footer {
